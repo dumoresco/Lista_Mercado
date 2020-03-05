@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Exercício 01</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="mercado">
+			<h1>Produtos</h1>
+			<form>
+
+				<div class="ajust">
+				<span><img src="box.png" width="30"></span>
+				<input type="text" id="product" placeholder="Produto"><br>
+				</div>
+
+				<div class="ajust">
+				<span><img src="money.png" width="30"></span>
+				<input type="text" id="price" placeholder="Preço"><br>
+				</div>
+
+				<div class="ajust">
+				<span><img src="qtd.png" width="30"></span>
+				<input type="number" id="qtd" placeholder="Quantidade"><br>
+				</div>
+
+				<button onclick="adicionar()">Adicionar</button>
+			</form>
+		</div>
+
+		<div class="lista">
+			<h2>Lista </h2>
+			<p id="texto"></p>
+		</div>
+
+	</div>
+</body>
+</html>
